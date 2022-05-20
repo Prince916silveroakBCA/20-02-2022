@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form and bgvideo</title>
+    <style type="text/css">
+        * {
+            text-align: left;
+            font-size: 20px;
+            color: rgb(6, 254, 68);
+        }
+
+            .baclground {
+            position: fixed;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        h1 {
+            color: aqua;
+            background-color: blueviolet;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FORM</h1>
+
+    <div class="video">
+        <video src="Wildlife.wmv" autoplay mute loop class="background"></video>
+    </div>
+
+    <div class="form">
+        <form>
+            <marquee  direction="right">  <div class="name"> NAME:<input type="text" ></div><br></marquee>
+
+          <marquee  direction="left">  <div class="phone">PHOONE NO.:<input type="number"></div><br></marquee>
+
+         <marquee  direction="up">   <div class="dob">DOB:<input type="radio" name="G1">MALE<input type="radio" name="G1">FEMALE</div><br></marquee>
+
+          <marquee  direction="down">  HOBBY:<input type="checkbox">coding<input type="checkbox">Reading<input type="checkbox">ESport<br><br></marquee>
+
+            ADDRESS:<br><textarea rows="5" placeholder="Enter Address Here.." maxlength="200"></textarea><br><br>
+
+            <input type="submit" class="submit">&nbsp;<input type="reset">
+        </form>
+    </div>
+
+</body>
+
+</html>
